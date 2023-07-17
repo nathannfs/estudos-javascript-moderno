@@ -14,6 +14,6 @@ const includesArray = array.includes('React');
 const startsWith = tech.startsWith('N');
 // console.log({ startsWith });
 
-// .endsWith - ele verifica se alguma string termina com alguma coisa que passarmos dentro dela
+// .endsWith - ele verifica se alguma string termina com alguma coisa que passarmos dentro dela.
 const endsWith = tech.endsWith('.js');
 console.log({ endsWith });

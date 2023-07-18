@@ -67,7 +67,7 @@ const filter = array.filter((product) => product.quantity > 2);
 // ele pega o array e reduz ele para um número inteiro
 // ele recebe dois argumentos - (função que recebe accumulator e current (product)) e o valor inicial
 const reduce = array.reduce((accumulator, product) => {
-  // o accumulator navega entre todas as alterações que temos
+  // o accumulator navega entre todas as alterações que temos.
 
   // a cada retorno ele sobrescreve sobre o accumulator
   return accumulator + product.price * product.quantity;
